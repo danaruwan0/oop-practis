@@ -3,6 +3,8 @@ package lk.dana;
 import java.util.Scanner;
 
 public class Demo {
+
+    static int eggNumber;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -20,6 +22,10 @@ public class Demo {
         Car vitz = new Car ( "red", 2025, 25000, true);
         System.out.println(vitz);
         System.out.println(vitz.color);
+
+
+
+        System.out.println(  "egg number defult valuve is  "+eggNumber);
 
     }
 

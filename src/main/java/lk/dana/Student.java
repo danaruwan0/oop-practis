@@ -37,4 +37,15 @@ public class Student {
         marks = objectMarks;
     }
 
+    static {
+        System.out.println(" hey im static method constructor called.");
+    }
+
+
+    {
+        System.out.println("instance constructor called.");
+    }
+
+
+
 }
